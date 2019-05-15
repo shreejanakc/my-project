@@ -1,0 +1,218 @@
+/**
+ * Theme Name: Revised Demo
+ * Theme URI:https://wordpress.org/
+ * Author: Shreejana K.C
+ * Description: It is for demo 
+ * Version: 1.0
+ * License: GNU General Public License v2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain : revised
+ * Tags:demo, 2-columns;
+ * 
+ */
+
+#header-left-section
+{
+	float: left;
+    margin-left: 50px;
+    margin-right: 25px;
+}
+#header-logo
+{
+	float: left;
+    padding: 0 20px 0 0;
+    max-width: 100%;
+}
+
+#header-text
+{
+   float: left;
+    padding: 10px 20px 0 0;
+}
+#header-text #site-description
+{
+	font-size: 20px;
+}
+
+#header-right-section
+{
+	float: right
+
+}
+
+#footer 
+{
+	
+	background-color: #dddddd;
+}
+#footer h2
+{
+	text-align: center;
+}
+#footer .content {
+	padding-left: 200px;
+}
+.sidebar 
+{
+	top:0
+	right:0;
+	background-color: pink;
+}
+
+.tg-one-third
+{
+	text-align: center;
+	float: left;
+    width: 28.407225%;
+    margin: 0 2.46305419%;
+    padding: 0px 0px 30px;
+}
+
+p
+{
+	text-align: justify-all;
+}
+
+/*navigation*/
+
+#navigation ul 
+{
+	list-style-type : none;
+	margin: 0;
+    padding: 0;
+	overflow: hidden;
+	/*background-color: #dddddd;*/
+    
+}
+#navigation li
+{
+	float: left;
+    position: relative;
+    padding: 25px 0 0 25px;
+    font-family: 'Lato', sans-serif;
+	 
+}
+#navigation li a
+{
+	  display: block;
+	  padding: 8px;
+	  color: black;
+	  font-weight: bold;
+	  font-size: 20px;
+	 /* background-color: #dddddd;*/
+	  text-decoration: none;
+	 
+}
+#navigation a:hover
+{
+	color:green;
+}
+
+
+
+ul
+{
+	list-style-type : none;
+}
+li
+{
+	list-style-type : none;
+}
+
+.more-link 
+{
+	color:green;
+}
+
+#centered
+{
+	text-align: center;
+}
+
+.service-section
+{
+	margin-left: 0px;
+	padding: 30px 0 30px 0px;
+}
+
+/*call to action*/
+.call-to-action-content-wrapper
+{
+	border-width: 1px 1px 50px 3px;
+    border-style: dashed dashed dashed solid;
+    border-color: #EAEAEA #EAEAEA #EAEAEA #0FBE7C;
+    padding: 20px 3.85878489% 20px 3.69458128%;
+    background-color: #F8F8F8;
+}
+
+.call-to-action-content {
+    width: 69.5187166%;
+    float: left;
+ }
+
+ .call-to-action-button {
+    float: right;
+    background-color: #0FBE7C;
+    border-radius: 3px 3px 3px 3px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    color: #FFFFFF;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    padding: 5px 3.28407225%;
+    margin-top: 4px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+   }
+
+ .call-to-action-section {
+ 	margin-bottom: 30px;
+ }
+
+ /*widget*/
+ .widgettitle 
+ {
+ 	font-size: 25px;
+ 	font-weight: normal;
+ 	margin-bottom: 15px;
+ 	margin-top: 10px;
+
+ }
+ .widgettitle a
+ {
+    color: #444444 !important;
+ }
+
+ /* contact form */
+ input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
